@@ -1,0 +1,16 @@
+{
+  "name": "startup-company-mp16-server",
+  "version": "4.0.0",
+  "description": "Startup Company Multiplayer 16 - merkezi oda sunucusu (WebSocket)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ../test/server.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
