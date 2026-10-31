@@ -1,0 +1,10 @@
+# Render.com "Blueprint": New → Blueprint → bu repo seçilince sunucu otomatik kurulur.
+services:
+  - type: web
+    name: startup-mp16
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    healthCheckPath: /health
